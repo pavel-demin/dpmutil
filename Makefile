@@ -1,6 +1,6 @@
 TARGET = dpmutil
 
-OBJECTS = dpmutil.o I2CHAL.o PlatformMCU.o syzygy.o ZmodADC.o ZmodDAC.o main.o
+OBJECTS = dpmutil.o I2CHAL.o PlatformMCU.o syzygy.o ZmodADC.o ZmodDAC.o ZmodDigitizer.o main.o
 
 CC = gcc
 LD = gcc
