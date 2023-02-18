@@ -36,8 +36,8 @@
 #include <sys/types.h>
 #include <sys/ioctl.h>
 #include <dirent.h>
-const char  szI2cDeviceName[] = "pmcu-i2c";
-const char	szI2cDeviceNameDefault[] = "/dev/i2c-0";
+const char szI2cDeviceName[] = "pmcu-i2c";
+const char szI2cDeviceNameDefault[] = "/dev/i2c-1";
 #else
 static Iic IicDev;
 static BOOL Iic_Init=fFalse;
