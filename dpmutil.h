@@ -50,6 +50,7 @@
 #include "PlatformMCU.h"
 #include "stdtypes.h"
 #include "syzygy.h"
+#include "Zmod.h"
 #include "ZmodADC.h"
 #include "ZmodDAC.h"
 #include "ZmodDigitizer.h"
